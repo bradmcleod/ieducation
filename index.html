@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="HandheldFriendly" content="true">
+		<link rel="shortcut icon" href="images/logo.svg">
+		<link rel="stylesheet" href="styles/reset.css">
+		<link rel="stylesheet" href="styles/global.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div class="header-container">
+				<div class="logo"></div>
+			</div>
+		</header>
+			<main>
+				<div class="vancouver">
+					<h1>We help connect you with schools.</h1>
+				</div>
+				<div class="section-two">
+					<div class="about">
+						<h2>About Us</h2>
+						<img src="images/logo.svg">
+						<p>i+Education is a leading education agency based in Vancouver, Canada. We specialized in helping Thai students connect with the right school here in Vancouver and other parts of Canada to suit their needs. </p>
+					</div>
+					<div class="students">
+						<img src="images/students.jpg">
+					</div>
+				</div>
+				<div class="services">
+					<h2>Student Services</h2>
+					<p>Our student services include providing accommodation, application support, and counselling services. We partner with summer school programs, secondary/post-secondary education, and language schools across Canada.</p>
+				</div>
+				<div class="accomadation">
+					<h2>Accomadation</h2>
+					<img src="images/home.svg">
+					<p>For those students needing accommodation during their stay in Canada, we have our partnering hosts that will offer housing to students at a reasonable price.</p>
+				</div>
+				<div class="testimonial">
+					<h2>What our clients say</h2>
+					<img src="images/client.jpg">
+					<p>"i+Education provides a one-stop solution from school to accommodation to visa support. We are very impressed with Tony’s professionalism in communicating with us and going through the whole process."</p>
+					<h3>John Duong</h3>
+				</div>
+				<div class="clients">
+					<h2>Our Clients</h2>
+					<div class="slideshow-container">
+						<div class="slide">
+							<img src="images/quest.png">
+						</div>
+						<div class="slide">
+							<img src="images/capilano.png">
+						</div>
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+					</div>
+				</div>
+				<div class="contact">
+					<h2>Send Us An Email</h2>
+						<form>
+							<div class="contact-part">
+						    	<label for="fname">First Name*</label>
+						    </div>
+						    <div class="contact-part">
+						    	<input type="text" id="fname" name="firstname">
+						    </div>
+							<div class="contact-part">
+						    	<label for="lname">Last Name*</label>
+						    </div>
+						    <div class="contact-part">
+						    	<input type="text" id="fname" name="lastname">
+							</div>
+							<div class="contact-part">
+						    	<label for="email">Email*</label>
+						    </div>
+						    <div class="contact-part">
+						    	<input type="text" id="fname" name="email">
+							</div>
+							<div class="contact-part"> 
+						    	<label for="phone">Phone</label>
+						    </div>
+						    <div div class="contact-part">
+						    	<input type="text" id="phone" name="phone">
+							</div>
+							<div class="contact-part">
+						    	<label for="status">I am a*</label>
+						    </div>
+						    <div class="contact-part">
+						    	<select id="status" name="status">
+						    	<option value="" disabled selected>--Select One--</option>
+							      <option value="student">Prospective Student</option>
+							      <option value="school">ESL School Representative</option>
+							      <option value="other">Other</option>
+								</select>
+							</div>
+							<div class="contact-part">
+						    	<label for="subject">Subject</label>
+						    </div>
+						    <div class="contact-part">
+						    	<input type="text" id="subject" name="subject">
+							</div>	
+							<div class="contact-part">
+						    	<label for="message">Message</label>
+						    </div>
+						    <div class="contact-part">
+						    	<textarea id="message" name="message" style="height:200px"></textarea>
+							</div>		
+							<div class="contact-part">
+								<input type="submit" value="Submit">
+							</div>			
+					  </form>
+				</div>
+				<div class="offices">
+					<img src="images/full-logo.svg">
+					<h2>Offices</h2>
+					<div class="address">
+						<h3>Address:</h3>
+						<h3>1265 Barclay St, Suite 35000</h3>
+						<h3>Vancouver, BC V6E 1H5</h3>
+					</div>
+					<div class="contact-us">
+						<h3>Phone: (604) 555 5555</h3>
+						<h3>Fax: (604) 555 5555</h3>
+						<h3>Email: info@ieducation.ca</h3>
+					</div>
+				</div>
+				<div class="social">
+					<h2>Social Media</h2>
+					<div>
+						<img src="images/instagram.svg">
+						<img src="images/twitter.svg">
+						<img src="images/facebook.svg">
+					</div>
+				</div>
+			</main>
+			<footer>
+			<div class="footer-container">
+				<p>Copyright &copy; 2020 All Right Reserved by i+education Inc.</p>
+			</div>
+		</footer>
+	</body>
+	<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("slide");
+		  if (n > slides.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+		      slides[i].style.display = "none";  
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		}
+	</script>
+</html>
