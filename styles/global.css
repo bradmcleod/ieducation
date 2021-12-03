@@ -334,5 +334,6 @@ main {
 }
 .section-two {
   flex-direction: row;
+  padding: 2em;
 }
 }
