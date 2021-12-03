@@ -1,0 +1,338 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* --- Header --- */
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {
+  background-color: #1b57a6;
+  height: 100px;
+  width: 100vw;
+}
+
+.logo {
+  background-image: url(../images/logo-white.svg);
+  background-repeat:  no-repeat;
+  background-position: center;
+  height: 90px;
+  width: auto;
+}
+
+.vancouver {
+  background-image: url(../images/vancouver-skyline.jpg);
+  background-repeat:  no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+  line-height: 1.5em;
+  font-weight: 700;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.vancouver h1 {
+  position: absolute;
+  top: 9em;
+}
+
+/* --- Footer --- */
+
+.footer-container {
+  background-color: #1b57a6;
+  height: 100px;
+  width: 100vw;
+}
+
+.footer-container p {
+  font-size: 0.8em;
+  color: white;
+  text-align: center;
+  padding-top: 3em;
+}
+
+/* --- About --- */
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.about img {
+  width: 200px;
+  margin: auto;
+}
+
+.about h2 {
+  text-transform: uppercase;
+  color: #1b57a6;
+  font-size: 1.8em;
+  margin: 1em;
+}
+
+.about p {
+  margin-top: 1em;
+  margin-bottom: 3em;
+  line-height: 1.5em;
+  font-weight: 400;
+  margin-right: 2em;
+  margin-left:  2em;
+}
+
+/* --- Students --- */
+
+.students img {
+  width: 100%;
+}
+
+/* --- Services --- */
+
+.services {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.services h2 {
+  text-transform: uppercase;
+  color: #1b57a6;
+  font-size: 1.8em;
+  margin: 1em;
+}
+
+.services p {
+  margin-top: 1em;
+  margin-bottom: 3em;
+  line-height: 1.5em;
+  font-weight: 400;
+  margin-right: 2em;
+  margin-left:  2em;
+}
+
+/* --- Accomadation --- */
+
+.accomadation {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.accomadation h2 {
+  text-transform: uppercase;
+  color: #1b57a6;
+  font-size: 1.8em;
+  margin: 1em;
+}
+
+.accomadation p {
+  margin-top: 1em;
+  margin-bottom: 3em;
+  line-height: 1.5em;
+  font-weight: 400;
+  margin-right: 2em;
+  margin-left:  2em;
+}
+
+.accomadation img {
+  width: 5em;
+  margin: auto;
+}
+
+/* --- Testimonial --- */
+
+.testimonial {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #1b57a6;
+}
+
+.testimonial h2 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.5em;
+  margin: 1em;
+}
+
+.testimonial h3 {
+  color: white;
+  font-size: 1.4em;
+  margin: 1em;
+}
+
+.testimonial p {
+  color: white;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  line-height: 1.5em;
+  font-weight: 400;
+  margin-right: 2em;
+  margin-left:  2em;
+}
+
+.testimonial img {
+  border-radius: 1000px;
+  width: 200px;
+  margin: auto;
+}
+
+/* --- Clients --- */
+
+.clients {
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 2em;
+}
+
+.clients img {
+  width: 200px;
+  margin: auto;
+}
+
+.clients h2 {
+  text-transform: uppercase;
+  color: #1b57a6;
+  font-size: 1.8em;
+  margin: 1em;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  display: flex;
+  position: relative;
+  margin: auto;
+}
+
+.slide {
+  display:  none;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #1b57a6;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #1b57a6;
+  color: white;
+}
+
+/* --- Contact --- */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.contact img {
+  width: 200px;
+  margin: auto;
+}
+
+.contact h2 {
+  text-transform: uppercase;
+  color: #1b57a6;
+  font-size: 1.8em;
+  margin: 1em;
+}
+
+.contact-part {
+  margin-bottom: 1em;
+}
+
+.offices {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.offices img {
+  width: 300px;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.offices h2 {
+  font-size: 1.6em;
+  margin: 1em;
+}
+
+.offices h3 {
+  font-weight: 500;
+  font-size: 1em;
+  margin: 1em;
+}
+
+.social {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+
+.social h2 {
+  font-size: 1.6em;
+  margin: 1em;
+}
+
+.social img {
+  width: 50px;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+@media only screen and (min-width: 1024px) {
+.vancouver h1 {
+  font-size: 1.7em;
+  position: absolute;
+  top: 4em;
+}
+.vancouver {
+  height: 50vh;
+}
+.section-two {
+  flex-direction: row;
+}
+}
